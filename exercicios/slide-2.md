@@ -128,7 +128,7 @@ mais e menos pontos até o momento.
 
 void main(char time_maior , char time_menor , char time , int ponto_maior , int ponto_menor , int ponto , int vitoria , int empate , int perda , int i){
 	ponto_maior = 0;
-	ponto_menor = 100;
+	ponto_menor = 120;
 	for (i = 0 ; i < 20 ; i++){
 		printf("Qual o nome do time? ");
 		scanf(" %c" , &time);
